@@ -4,6 +4,8 @@ using namespace std;
 vector<vector<string>> anagrams(vector<string> &arr)
 {
     // code here
+    vector<int>extra_piece;
+    int n_new=extra_piece.size();
     int n = arr.size();
     map<string, vector<string>> mp;
     for (int i = 0; i < n; i++)
